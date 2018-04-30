@@ -27,7 +27,6 @@ html {
 }
 
 .content-wrapper {
-   width: 960px;
    margin: auto;
 }
 
@@ -43,11 +42,14 @@ header {
     font-family:'Georgia', Times, Times New Roman, serif;
     content: 150px 10px;
     padding: 20px;
-    width: 180px;
+    width: 220px;
     background: #4aaaa5;
     color: white;
     font-size: 1.5em; 
     display: inline-block;
+    text-align: center; 
+    margin-left:16.5%
+   
 }
 
 a {
@@ -61,6 +63,7 @@ a {
     text-decoration: none;
     margin: 10px;
     padding-right: 15px;
+  
 }
 
 a:hover{
@@ -80,11 +83,18 @@ h2 {
     margin-bottom: 15px;
 }
 
+.links {
+    margin-right: 16.5%;
+    
+}
+
 .main-content {
     background-color: #ffffff;
     padding: 25px;
     border: solid #fff 2px;
     margin-bottom: 30px;
+    width: 960px;
+    margin: auto;
     
 }
 
@@ -105,7 +115,7 @@ footer {
     text-align: center;
     background:#666666;
     padding-top: 30px;
-    position: relative;
+    position: fixed;
     right: 0;
     left: 0;
     bottom: 0;
@@ -181,3 +191,62 @@ Images
           box-sizing: border-box;
 }
 
+.image-text{
+    font-family:'Georgia', Times, Times New Roman, serif;;
+    color: #fff;
+}
+
+#hangman{
+    background-color: #4aaaa5;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+    text-align: center;
+   padding:15px;
+}
+
+#RPG {
+    background-color: #4aaaa5;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 150px;
+    text-align: center;
+    padding:15px;
+}
+
+#trivia {
+    background-color: #4aaaa5;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 398px;
+    text-align: center;
+    padding:15px;
+}
+
+#rutgers {
+    background-color: #4aaaa5;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 398px;
+    text-align: center;
+    padding:15px;
+}
+
+#rock {
+    background-color: #4aaaa5;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 648px;
+    text-align: center;
+    padding:15px;
+}
